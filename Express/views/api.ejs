@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ejs-engine Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script> -->
+</head>
+<body style="background-color: lightpink;font-family:sans-serif;color :goldenrod;">
+    <h1 style="padding: 10%;">welcome to api page</h1>
+    <h3>welcome to the profile of : <%=  person  %></h3>
+    <p><strong>Age : </strong><%= data.age %> <strong> job : </strong><%= data.job %></p>
+    <h3>Hobbies:</h3>
+    <ul><% data.hobbies.forEach(function(item) { %>
+        <li><%= item %></li>
+        <% }); %>
+    </ul>
+    <p style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: ghostwhite;">All is Here you want!</p>
+</body>
+</html>
