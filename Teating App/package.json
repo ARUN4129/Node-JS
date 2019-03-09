@@ -1,0 +1,19 @@
+{
+  "name": "testing-app",
+  "version": "1.0.0",
+  "description": "Node js Application testing using Mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
+  "author": "ARUN RATHOD",
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "^24.1.0",
+    "mocha": "^6.0.2",
+    "supertest": "^3.4.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
